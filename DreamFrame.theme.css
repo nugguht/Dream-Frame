@@ -1,0 +1,111 @@
+//META{"name":"Dream Frame","description":"Dream Frame is a clean theme for Discord. It allows customization like accent colors, custom fonts, color change, and more to come in the future. Support Server for Expose X: https://discord.gg/cWd37TJ.","author":"Corbs#0001","version":"AutoUpdate"}*//{}
+
+/* Please keep !important by each option, this helps override the fallback system */
+@import url("https://cdn.staticaly.com/gh/CorbsEditor/Themes-for-BetterDiscord/master/Expose%20X/ExposeXRaw.theme.css");
+:root {
+    /* Background */
+    --custombackground: url(https://source.unsplash.com/random); /* Change the background */
+    --blur: 0px !important; /* Adjust the amount of blur on the background */
+    --opacitybg: 0.5 !important; /* Change the transparency of the background. This is what controls the black overlay that is over the background */
+
+    /* Accent Colors */
+    --accentcolor: #738bd7 !important;   /* To reset the color back to default, use #738bd7 */
+    --accenttext: white !important; /* Use this to change the text colors that are on top of the accentcolor, this is to help make text readable if you're using a bright accent color */
+    
+    /* Fonts */
+    --fontchat: Whitney !important; /* Default font is Whitney */
+    --fontcategoryname: Whitney !important;
+    --fontrolename: Whitney !important;
+    --fontchannelname: Whitney !important;
+    --fonttooltip: Whitney !important;
+    --fontusername: Whitney !important;
+    
+    /* Font Sizes */
+    --fontchatsize: 15px !important; /* Default: 15px */
+    --fontcategorynamesize: 12px !important; /* Default: 12px */
+    --fontrolenamesize: 12px !important; /* Default: 12px */
+    --fontchannelnamesize: 16px !important; /* Default: 16px */
+    --fonttooltipsize: 14px !important; /* Default: 14px */
+    --fontusernamesize: 15px !important; /* Default: 15px */
+    
+    /* Scrollbars */
+    
+    --colorbar: white !important; /* Change the color of the scrollbar */
+    --widthbar: 14px !important; /* Change the width of the scrollbar */
+    
+    /* Status Colors */
+    --online: rgb(71, 191, 71)  !important;
+    --idle: yellow  !important;
+    --dnd:  red !important;
+    --offline: grey  !important;
+    --streaming: purple  !important;
+    
+    /* Server Colors */
+    --serverselected: red !important;
+    --serverunread: white !important;
+    
+    /* Home Icon */
+    --homeicon: url(https://cdn.discordapp.com/attachments/463532696820383754/489649105006493697/TheDWinkyFace.png);
+    
+    /* Avatar Sizes in Chat */
+    --avatar: 40px !important;
+    
+    /* Emojis */
+    --emojisize: 30px  !important;
+    --emojimenuheight: 374px !important;
+    
+    /* Windows Titlebar Customization */
+    --closeButton: url(); /* Change icon to close button on Windows */
+    --maxButton: url(); /* Change icon to max button on Windows */
+    --minButton: url(); /* Change icon to min button on Windows */
+    --sizeOfButtons: 16px;  /* Change icon size to the titlebar buttons on Windows */
+    
+    --defaulttb: 1 !important; /* change to 0 to hide default icons */
+    
+    /* macOS Titlebar - Colors*/
+    --macOSClose: red !important;/* Change icon to close button on macOS */
+    --macOSMin: yellow !important;/* Change icon to min button on macOS */
+    --macOSMax: green !important;/* Change icon to max button on macOS */
+
+    /* Transparency of pop up backgrounds */
+    --backgroundpopup: 1 !important; /* 0 for no background or 0.5 for half transparency */
+}
+
+/* TEMPLATES */
+/* Templates are new as of v2.2! This will help you change looks and layouts of specific modals if you don't like the default one. */
+/* This also helps being more customization to Dream Frame! */
+/* If new templates are added, just put in @import url(RawLinkToTheTemplate) if you want to try them out. Remember not to enable more than one for each section or something might break */
+
+/* To enable a template: remove the /* */ from the line */
+/* To disable a template: add /* at the beginning and */ at the end of the link. */
+/* and */ help add comments to CSS files :p like this one */
+
+/* Windows Titlebar */
+  /* Windows 10 Size */
+  /* @import url(https://cdn.staticaly.com/gh/CorbsEditor/Themes-for-BetterDiscord/master/Expose%20X/Templates/Titlebar/Windows10Size.theme.css);
+
+  /* Move Buttons to Left Side */
+  /* @import url(https://cdn.staticaly.com/gh/CorbsEditor/Themes-for-BetterDiscord/master/Expose%20X/Templates/Titlebar/Left.theme.css); */
+
+  /* Old Titlebar - by Intrnl */
+  /* @import url(https://cdn.staticaly.com/gh/CorbsEditor/Themes-for-BetterDiscord/master/Expose%20X/Templates/Titlebar/OldTitlebarByIntrnl.theme.css); */
+
+  /* Default - Discord */
+  @import url(https://cdn.staticaly.com/gh/CorbsEditor/Themes-for-BetterDiscord/master/Expose%20X/Templates/Titlebar/Default.theme.css);
+
+/* macOS Titlebar */
+  /* Default */
+  @import url(https://cdn.staticaly.com/gh/CorbsEditor/Themes-for-BetterDiscord/master/Expose%20X/Templates/macOS%20Titlebar/Default.theme.css);
+
+  /* Vertical */
+  /* @import url(https://cdn.staticaly.com/gh/CorbsEditor/Themes-for-BetterDiscord/master/Expose%20X/Templates/macOS%20Titlebar/Vertical.css);
+
+/* Upload Modal */
+  /* Default - Dream Frame */
+  @import url(https://cdn.staticaly.com/gh/CorbsEditor/Themes-for-BetterDiscord/master/Expose%20X/Templates/Upload%20Modal/Default.theme.css);
+
+  /* Default - Discord */
+  /* @import url(https://cdn.staticaly.com/gh/CorbsEditor/Themes-for-BetterDiscord/master/Expose%20X/Templates/Upload%20Modal/DiscordDefault.theme.css); */
+
+  /* Expose X Classic - from beta v0.3 */
+  /* @import url(https://cdn.staticaly.com/gh/CorbsEditor/Themes-for-BetterDiscord/master/Expose%20X/Templates/Upload%20Modal/Classic.theme.css); */
