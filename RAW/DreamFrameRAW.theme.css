@@ -2,20 +2,9 @@
 root: {
     --versionnumber: "2.23";
 }
-/* Loading Screen */
-.app {
-  animation: 2.3s Load ease !important;
-}
-@keyframes Load {
-  0% {
-    opacity: 0.0;
-  }
-  90% {
-    opacity: 0.0;
-  }
-  100% {
-    opacity: 1;
-  }
+/* FORCE REMOVE OLD MESSAGE */
+.app::before {
+	visibility: hidden;
 }
 /* Some quick fixes for v2.22 */
 .theme-dark .standardSidebarView-3F1I7i, .theme-dark .sidebarRegion-VFTUkN, .theme-dark .contentRegion-3nDuYy  {
