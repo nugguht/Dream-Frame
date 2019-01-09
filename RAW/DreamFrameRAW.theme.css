@@ -38,7 +38,16 @@ root: {
     }
 }
 .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ {
-    background: rgba(0, 0, 0, 0.44);
+    background: transparent;
+}
+.layers-3iHuyZ.flex-vertical.flex-spacer::before {
+    content: "";
+    background-color: black;
+    opacity: var(--opacitybg);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    margin-top: -18px;
 }
 .container-2lgZY8 {
     background-color: rgba(32, 34, 37, 0);
@@ -1893,7 +1902,7 @@ li.role-2irmRk.flex-1O1GKY.alignCenter-1dQNNs.da-role.da-flex.da-alignCenter {
 /* Background */
 .typeWindows-1za-n7 {
     margin-top: 0px;
-    background-color: rgba(0, 0, 0, 0.68);
+    background-color: transparent;
 }
 /* Brand Logo */
 .wordmark-2iDDfm {
