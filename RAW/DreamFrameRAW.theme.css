@@ -23,7 +23,7 @@ root: {
 }
 /* Inserting Fallback System */
 /*DO NOT REMOVE */
-@import url(https://cdn.staticaly.com/gh/CorbsEditor/Themes-for-BetterDiscord/master/Expose%20X/Fallback/Fallback.theme.css);
+@import url(https://cdn.staticaly.com/gh/CorbsEditor/Dream-Frame/master/others/Fallback.theme.css);
 .app-19_DXt::before {
     content: "";
     filter: blur(var(--blur));
