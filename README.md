@@ -19,6 +19,7 @@ The following is offered as of now:
 * Background
 * Background blur
 * Background opacity
+* Background scaling
 * Emoji menu height
 * Emoji size
 * Avatar in chat size
