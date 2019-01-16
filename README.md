@@ -9,7 +9,6 @@ How to install BetterDiscord: https://github.com/rauenzi/BetterDiscordApp#instal
 How to install BeautifulDiscord: https://github.com/leovoel/BeautifulDiscord#installing
 # Donation
 Donate: https://Paypal.me/CorbsEditor
-Dream Frame brings a sexy translucent look to Discord's client with customizable options offered.
 # Exploring Dream Frame
 ![Logo Cover](https://pbs.twimg.com/media/DxEDJcCUcAAIDA5.jpg)
 ## Why Dream Frame?
