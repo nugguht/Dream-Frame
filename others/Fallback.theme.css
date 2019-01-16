@@ -1,0 +1,36 @@
+//META{"name":"Expose X Fallback","description":"Fallback system helps the theme not break if new options were added.","author":"Korbs#0001","version":"ShouldNotBeDownloaded"}*//{}
+/* Welcome to Expose X's Fallback System! What is this exactly? */
+/* So when I add new custom options to the theme, users are required to redownload the file to receive these new options */
+/* if they don't have it, Expose X creates bugs. So that's where the fallback system comes in! */
+/* An alternative plan that may be used to prevent future bugs for anyone */
+/* - - .app - - */
+/* Background */
+.app::before {
+  opacity: 0.5;
+}
+.appMount-3VJmYg { /* Fallback */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    animation: backgroundstartup 5s cubic-bezier(0.860, 0.000, 0.070, 1.000);
+}
+/* - - Server List - - */
+/* Selected Server - Color */
+.theme-dark .guild-1EfMGQ.selected-ML3OIq { /* Fallback */
+    background: white; /* Default Color */
+    padding: 1px;
+    margin-left: -1px;
+    border-radius: 50px;
+}
+/* Unread Server - Color */
+.theme-dark .guild-1EfMGQ.unread-qLkInr { /* Fallback */
+    background: #8a8e94; /* Default Color */
+    padding: 1px;
+    margin-left: -1px;
+    border-radius: 50px;
+}
+/* Emojis */
+.emoji.jumboable.da-emoji.da-jumboable {
+  height: 30px;
+  width: 30px;
+}
