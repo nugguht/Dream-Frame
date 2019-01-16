@@ -7,7 +7,8 @@
     --custombackground: url(https://source.unsplash.com/random); /* Change the background */
     --blur: 0px !important; /* Adjust the amount of blur on the background */
     --opacitybg: 0.5 !important; /* Change the transparency of the background. This is what controls the black overlay that is over the background */
-
+    --bgscale: 1; /* 0.3 to 3 */
+    
     /* Accent Colors */
     --accentcolor: #738bd7 !important;   /* To reset the color back to default, use #738bd7 */
     --accenttext: white !important; /* Use this to change the text colors that are on top of the accentcolor, this is to help make text readable if you're using a bright accent color */
