@@ -281,23 +281,7 @@ footer.footer-3oZnEF {
     top: 0px;
     left: 0px;
 }
-/* ================================= */
-/* Warning, Notice, etc... */
-/* ================================= */
-/* You're in Stream Mode */
-.notice-2FJMB4 {
-    border-radius: 5px;
-    box-shadow: 0 0px 0 rgba(0,0,0,0);
-    text-align: center;
-    z-index: 101;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 30%;
-    padding: 10px 0px 10px 0px;
-    animation: 2s fadein;
-}
+
 /* ================================= */
 /* Accent Text - Fonts */
 /* ================================= */
