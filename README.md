@@ -4,7 +4,7 @@ Bring a sexy translucent look to Discord with customizable options! BetterDiscor
 # Downloads
 * Direct Download: https://dreamframe.glitch.me/download.html
 * Link: https://betterdocs.us/themes/dream-frame
-* Demo: KorbsStudio.com/projects/DreamFrame.html
+* Demo: https://KorbsStudio.com/projects/DreamFrame.html
 # Helpful Links
 * How to install BetterDiscord: https://github.com/rauenzi/BetterDiscordApp#installation
 * How to install BeautifulDiscord: https://github.com/leovoel/BeautifulDiscord#installing
