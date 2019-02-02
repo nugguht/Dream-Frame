@@ -569,20 +569,23 @@ h5.h5-18_1nd.title-3sZWYQ.size12-3R0845.height16-2Lv3qA.weightSemiBold-NJexzi.he
     bottom: 4px;
 }
 /* Upload button and upload menu */
-.theme-dark .attachPopoutRowText-1tIocA {
+.theme-dark .attachPopout-1n-ZKM {
+    background-color: transparent;
+}
+.attachPopoutRowText-1tIocA {
+    visibility: hidden;
     font-size: 0px;
 }
-.theme-dark .attachPopout-1n-ZKM {
-    display: inline-flex;
-    border-radius: 50px;
-    min-width: 90px;
+.attachPopoutRow-KrE-f6 {
+    display: -webkit-inline-box;
 }
-.popoutTopLeft-b5Eb3O {
-    margin-top: 60px;
-    margin-left: 6px;
+.attachPopout-1n-ZKM {
+    margin-top: 10px;
+    margin-left: -6px;
+    opacity: 0.5;
 }
 .theme-dark .attachPopoutRow-KrE-f6:hover {
-    background-color: rgba(54, 57, 63, 0);
+    background-color: transparent;
 }
 /* Emoji button and emoji menu */
 .emoji.jumboable.da-emoji.da-jumboable {
