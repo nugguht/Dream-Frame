@@ -6,6 +6,25 @@ root: {
 .app::before {
 	visibility: hidden;
 }
+/* Spoilers */
+.theme-dark .spoilerText-3p6IlD.hidden-HHr2R9 {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+.theme-dark .spoilerText-3p6IlD.hidden-HHr2R9:hover {
+    background-color: rgba(255, 255, 255, 0.50);
+}
+.spoiler-1PPAUc.hiddenSpoilers-1ksnR6 {
+    filter: blur(20px) brightness(0.3);
+}
+.theme-dark .spoilerWarning-2aAZq1 {
+    background-color: transparent;
+    color: white;
+}
+.theme-dark .spoilerContainer-331r0R:hover .spoilerWarning-2aAZq1 {
+    background-color: transparent;
+    color: white;
+    opacity: 0.5;
+}
 /* Quickly fixing the change log */
 .userSettingsSecurity-3IYeMF.marginTop60-3PGbtK {
     background-image: url(https://raw.githubusercontent.com/CorbsEditor/Dream-Frame/master/resources/ChangeLogSmall.png);
