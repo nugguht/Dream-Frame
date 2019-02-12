@@ -931,169 +931,114 @@ g.iconForeground-3y9f0B.da-iconForeground {
 /* ================================= */
 /* Server list */
 /* ================================= */
-/* Margin */
-.theme-dark .guildsWrapper-5TJh6A {
-    margin-left: 20px;
+/* NEW - Mention */
+.mention-1f5kbO {
+    background-color: var(--accentcolor);
+    border-radius: 50px;
+}
+.bar-30k2ka {
+    color: var(--accenttext);
+}
+.mention-1f5kbO:hover {
+    background-color: var(--accentcolor);
+    border-radius: 50px;
+}
+.bar-30k2ka:hover {
+    color: var(--accenttext);
+}
+/* Height */
+.guildsWrapper-5TJh6A {
+    margin-top: -26px;
+}
+.guild-1EfMGQ, .guild-1EfMGQ .avatar-S_nsxk {
+    margin-top: 20px;
+}
+/* Width */
+.guildsWrapper-5TJh6A {
+    margin-left: 13px;
+    margin-right: 13px;
 }
 /* Home Icon */
-.theme-dark .homeIcon-1FoKUJ {
-    color: rgba(255, 255, 255, 0) !important;
+.theme-dark .homeIcon-1FoKUJ { /* Hiding Discord Icons */
+    color: transparent;
 }
-svg.homeIcon-1FoKUJ.da-homeIcon, .theme-dark .homeIcon-1FoKUJ {
-    background-image: url(https://cdn.discordapp.com/attachments/478040940649644033/479797290098491392/TheDWinkyFace.png);
-    background-size: 41px;
+.guildInner-3DSoA4 { /* Making background of home icon transparent */
+    background: transparent !important;
+}
+.theme-dark .homeIcon-1FoKUJ {
+    color: transparent;
+    background-image: var(--homeicon);
+    background-size: 48px;
     background-repeat: no-repeat;
     background-position: center;
 }
-.guildInner-3DSoA4.da-guildInner, .theme-dark .guild-1EfMGQ .guildInner-3DSoA4D, .theme-dark .guild-1EfMGQ .guildInner-3DSoA4 {
-    background-color: transparent !important;
+/* ## Online */
+.theme-dark .friendsOnline-_wi_fM, .theme-light .friendsOnline-_wi_fM {
+    color: white;
 }
 /* Seperator */
 .theme-dark .guildSeparator-1X4GQ1:after {
-    background: rgba(47, 49, 54, 0);
+    background: transparent;
 }
-/* ## Online */
 .theme-dark .friendsOnline-_wi_fM, .theme-light .friendsOnline-_wi_fM {
-    color: hsl(0, 0%, 100%);
+    margin-bottom: -20px;
 }
-/* Selected Server Icon */
-.guildInner-3DSoA4.da-guildInner, .guild-1EfMGQ .guildInner-3DSoA4 {
-    border-radius: 50px !important;
-}
-/* Selected Server - Color */
+/* Selected Server */
 .theme-dark .guild-1EfMGQ.selected-ML3OIq:before {
-    background: var(--serverselected);
-    width: 54px;
-    height: 54px !important;
-    top: 19px;
-    left: -1px;
+    background: transparent;
+    border: 2px var(--serverselected) solid;
 }
-.theme-dark .guild-1EfMGQ.selected-ML3OIq { /* Fallback */
-    background: white; /* Default Color */
-    padding: 1px;
-    margin-left: -1px;
-    border-radius: 50px;
-}
-/* Unread Server - Color */
-.theme-dark .guild-1EfMGQ.unread-qLkInr:before {
-    background: var(--serverunread);
-    width: 54px;
-    height: 54px !important;
-    top: 19px;
-    left: -1px;
-}
-.theme-dark .guild-1EfMGQ.unread-qLkInr { /* Fallback */
-    background: #8a8e94; /* Default Color */
-    padding: 1px;
-    margin-left: -1px;
-    border-radius: 50px;
-}
-/* Add or Join server button */
-.theme-dark .guildsAdd-21_IdK {
-    border-color: hsla(0, 0%, 100%, 0);
-    color: hsla(0,0%,100%,.75);
-}
-.theme-dark .guildsAdd-21_IdK:hover {
-    border-color: hsla(0, 0%, 100%, 0);
-    color: hsla(0,0%,100%,.75);
-}
-/* Background of Server list */
-.theme-dark .guildsWrapper-5TJh6A {
-    background-color: rgba(32, 34, 37, 0);
-}
-/* NEW */
-.unreadMentionsIndicatorBottom-BXS58x, .unreadMentionsIndicatorTop-gA6RCh {
-    border-radius: 50px;
-}
-.mention-1f5kbO {
-    background-color: var(--accentcolor);
-    color: var(--accenttext);
-    border-radius: 50px;
-}
-.wrapper-232cHJ.badge-1GsMF2.da-wrapper.da-badge, .wrapper-232cHJ {
-    animation: 3000ms flashslow ease;
-}
-.theme-dark .isMentioned-N-h9aa {
-    animation: none !important;
-}
-@keyframes flashfast {
-    0% {
-        opacity: 0;
-    }
-    25% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-    75% {
-        opacity: 1;
-    }
-}
-@keyframes flashslow {
-    0% {
-        opacity: 0;
-    }
-    10% {
-        opacity: 1;
-    }
-    20% {
-        opacity: 0;
-    }
-    30% {
-        opacity: 1;
-    }
-    40% {
-        opacity: 0;
-    }
-    50% {
-        opacity: 1;
-    }
-    60% {
-        opacity: 0;
-    }
-    70% {
-        opacity: 1;
-    }
-    80% {
-        opacity: 0;
-    }
-    90% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-/* Voice */
-.guild-1EfMGQ.audio-3vVhBi .guildInner-3DSoA4:after, .guild-1EfMGQ.video-15yGu3 .guildInner-3DSoA4:after {
-    border-radius: 50px;
+.guild-1EfMGQ.selected-ML3OIq:before {
+    -webkit-transition: height .25s ease-in-out,margin-top .25s ease-in-out;
+    border-radius: 50p;
     height: 50px;
-    right: 0px;
-    top: 0px;
-    width: 50px;
-    opacity: 0.7;
+    x: ;
+    margin-top: -20.5px;
+    transition: height .25s ease-in-out,margin-top .25s ease-in-out;
 }
-/* Unread Server / Selected Server */
 .guild-1EfMGQ.selected-ML3OIq:before, .guild-1EfMGQ.unread-qLkInr:before {
-    border-radius: 50px !important;
-    height: 53.5px !important;
+    border-radius: 50px;
+    content: " ";
+    height: 50px !important;
     left: -2px;
     margin-top: -20px;
-    top: 18px;
-    width: 53.5px;
-    z-index: -1;
+    position: absolute;
+    top: 36% !important;
+    width: 50px !important;
 }
-/* Unread DM */
-.wrapper-232cHJ.badge-1GsMF2.da-wrapper.da-badge {
-    margin-left: 0px !important;
-    top: 0px;
-    left: 0px;
+/* Unread Server */
+.theme-dark .guild-1EfMGQ.unread-qLkInr:before {
+    background: transparent;
+    border: 2px var(--serverunread) solid;
+}
+.guild-1EfMGQ.unread-qLkInr:before {
     border-radius: 50px;
-    background-color: rgba(240, 71, 71, 0.25);
-    box-shadow: 0 0px 0 rgba(0, 0, 0, 0), inset 0 0px 0 hsla(0, 0%, 100%, 0);
-    width: 38px;
-    height: 44px;
+    height: 50px;
+    margin-top: -20px;
+}
+.guild-1EfMGQ.selected-ML3OIq:before, .guild-1EfMGQ.unread-qLkInr:before {
+    border-radius: 50px;
+    content: " ";
+    height: 50px !important;
+    left: -2px;
+    margin-top: -20px;
+    position: absolute;
+    top: 36% !important;
+    width: 50px;
+}
+/* Add Button */
+.theme-dark .guildsAdd-21_IdK {
+    background: rgba(0, 0, 0, 0.50);
+    border-color: transparent;
+    color: white;
+}
+.theme-dark .guildsAdd-21_IdK:hover {
+    border-color: transparent;
+}
+/* Download Button - Discord Web Version */
+.theme-dark .downloadAppButton-3EFlA6 {
+    margin-top: -90px;
+    visibility: hidden;
 }
 /* ================================= */
 /* Another Server huh */
