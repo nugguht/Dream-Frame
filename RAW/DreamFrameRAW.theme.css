@@ -2,6 +2,11 @@
 root: {
     --versionnumber: "2.23";
 }
+
+/* Fixing Beta codes */
+.theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ, .container-2lgZY8, .theme-dark .guildsWrapper-5TJh6A, .channels-Ie2l6A, .theme-dark .container-2Thooq, .theme-light .container-2Thooq, .theme-dark .activityFeed-28jde9, .theme-dark .headerBar-UHpsPw, .theme-dark .gameLibrary-TTDw4Y, .theme-dark .applicationStore-1pNvnv, .theme-dark .container-3gCOGc, .theme-dark .messagesWrapper-3lZDfY, .theme-dark .title-3qD0b-, .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ, .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3, .container-PNkimc, .theme-dark .members-1998pB, .theme-dark .header-39GIC8, .theme-dark .root-1BQpZw {
+    background-color: transparent !important;
+}
 /* FORCE REMOVE OLD MESSAGE */
 .app::before {
 	visibility: hidden;
