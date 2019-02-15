@@ -1,9 +1,8 @@
 # Dream-Frame
-![Preview of v2.3](https://i.imgur.com/yyNcMpp.png)
+![Preview of v2.4](https://i.imgur.com/0wJg9ix.png)
 Bring a sexy translucent look to Discord with customizable options! BetterDiscord theme.
 # Downloads
-* Direct Download: https://dreamframe.glitch.me/download.html
-* Link: https://betterdocs.us/themes/dream-frame
+* Link: https://korbsstudio.com/Discord-Mods/themes/dream-frame.html
 * Demo: https://KorbsStudio.com/projects/DreamFrame.html
 # Helpful Links
 * How to install BetterDiscord: https://github.com/rauenzi/BetterDiscordApp#installation
@@ -23,10 +22,13 @@ The following is offered as of now:
 * Background scaling
 * Emoji menu height
 * Emoji size
+* Home icon
 * Avatar in chat size
 * Status color changing
 * Accent text, accent color
 * Font, font size
+* Border radius options
+* Custom background for your own profile
 * Server indicator colors
 * Titlebar icons(Windows)
 * Titlebar button colors(macOS)
