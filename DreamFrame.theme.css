@@ -7,8 +7,20 @@
     --custombackground: url(https://source.unsplash.com/random); /* Change the background */
     --blur: 0px !important; /* Adjust the amount of blur on the background */
     --opacitybg: 0.5 !important; /* Change the transparency of the background. This is what controls the black overlay that is over the background */
+    --opacityDiscord: 0.7 !important; /* Try removing your custom background and enable Transparency in BandagedBD settings. Also adjust opacitybg to 0 */
     --bgscale: 1; /* 0.3 to 3 */
-    
+    --bgrotation: 0deg; /* This option works out for some backgrounds, just in case. */
+    --bgrepeat: no-repeat; /* To make the background not repeat, use "no-repeat". To make background repeat, use "repeat", changing bgscale might need to be adjusted */
+    --NSFWbg: 10px; /* 0 to show NSFW backgrounds, 10 to blur out NSFW backgrounds. This option is for backgrounds on profile modal. Dream Frame allows users to select NSFW backgrounds, so becareful who you look at ;) */
+
+    /* Border Radius */
+    --channelsbr: 20px !important;
+    --memberslistbr: 5px !important;
+    --servericonbr: 25px !important;
+    --avatarbr: 50px !important;
+    --buttonsbr: 0px !important;
+    --appbr: 5px !important; /* If you use the transparency feature in BandagedBD and adjusted "opacityDiscord" under 0.9 and have your custom backgroud removed */
+
     /* Accent Colors */
     --accentcolor: #738bd7 !important;   /* To reset the color back to default, use #738bd7 */
     --accenttext: white !important; /* Use this to change the text colors that are on top of the accentcolor, this is to help make text readable if you're using a bright accent color */
@@ -47,7 +59,8 @@
     
     /* Home Icon */
     --homeicon: url(https://cdn.discordapp.com/attachments/463532696820383754/489649105006493697/TheDWinkyFace.png);
-    
+    --homeiconsize: 45px;
+
     /* Avatar Sizes in Chat */
     --avatar: 40px !important;
     
