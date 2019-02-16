@@ -1100,12 +1100,12 @@ button.attachButton-1UjEWA.popout-open.button-38aScr.lookBlank-3eh9lL.colorBrand
 }
 .theme-dark .members-1998pB::before {
     content: "";
-    background-image: url(https://imgur.com/VhMZkoH.png) !important;
-    width: 194px;
-    height: 45px;
+    background-image: url(https://github.com/CorbsEditor/Dream-Frame/blob/master/resources/VersionNumber.png?raw=true) !important;
+    width: 157px;
+    height: 25px;
     position: fixed;
-    right: 2%;
-    bottom: 1%;
+    right: 4%;
+    bottom: 2%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
