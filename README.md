@@ -10,7 +10,7 @@ Bring a sexy translucent look to Discord with customizable options! BetterDiscor
 # Donation
 Donate: https://Paypal.me/CorbsEditor
 # Exploring Dream Frame
-![Logo Cover](https://pbs.twimg.com/media/DxEDJcCUcAAIDA5.jpg)
+![Logo Cover](https://imgur.com/Gb6NjXI)
 ## Why Dream Frame?
 Dream Frame offers many options like changing colors, icons, sizes, and so on. There are more options are come, more advanced options to come as well if you're into that. This theme is the best translucent look to Discord, nothing can beat it!
 ## All of the Options Offered by Dream Frame
