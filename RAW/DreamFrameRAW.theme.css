@@ -1072,7 +1072,20 @@ img.image-3XsqGc {
     background-color: transparent;
     box-shadow: none;
 }
-
+/* Spotify Modal(in chat) */
+.theme-dark .invite-18yqGF {
+    background: rgba(0, 0, 0, 0.5);
+    border-color: transparent;
+}
+.theme-dark .artworkSpotifySessionEnded-11d_If {
+    background-image: url(https://raw.githubusercontent.com/CorbsEditor/Dream-Frame/master/resources/SpotifyPartyOver.png);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
 /* Upload Menu */
 .popoutTopLeft-b5Eb3O {
     margin-top: 20px;
