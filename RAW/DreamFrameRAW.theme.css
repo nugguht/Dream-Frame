@@ -800,6 +800,46 @@ circle.circleProgress-1EBmVn {
     color: var(--accentcolor);
 }
 /* - */
+/* Activity */   /* The newer one, this is a fix for it */
+/* - */
+/* Backgrounds */
+.theme-dark .activityFeed-1C0EmJ {
+    background-color: transparent;
+}
+/* Header */
+.theme-dark .headerBar-UHpsPw {
+    box-shadow: none;
+}
+/* Change log */
+
+/* Cards */
+.theme-dark .separator-1N1EBC {
+    background-color: transparent;
+}
+.theme-dark .wrapper-9ppXpy {
+    box-shadow: none;
+}
+/* Quick Launcher */
+.theme-dark .empty-hejAOj {
+    background-color: transparent;
+}
+/* Fitting in the changelog */
+@media (min-width: 1440px)
+.layoutInner-3TcL0l {
+    margin: 520px 16px 0px;
+}
+.content-2K7Ie9::before {
+    content: "";
+    background-image: url(https://raw.githubusercontent.com/CorbsEditor/Dream-Frame/master/resources/changelog.png);
+    height: 545px;
+    width: 1290px;
+    position: absolute;
+    top: -480px;
+    left: 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+/* - */
 /* Discord's Store */
 /* - */
 /* Top Cover */
