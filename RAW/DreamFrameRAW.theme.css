@@ -1,5 +1,4 @@
   @import url("https://raw.githack.com/CorbsEditor/Dream-Frame/master/others/ProfileBackgrounds.css");
-  @import url("https://raw.githack.com/CorbsEditor/Dream-Frame/master/others/Donator.css");
   @import url("https://raw.githack.com/CorbsEditor/Dream-Frame/master/others/Fallback.theme.css");
 /* - */
 /* Animation */
@@ -326,33 +325,31 @@ button.button-38aScr.da-button.lookFilled-1Gx00P.colorBrand-3pXr91.sizeSmall-2cS
 /* - */
 .feedCarousel-3F1_Q-.carousel-1Mb2Ud::before {
     content: "";
-    background-image: url(https://raw.githubusercontent.com/CorbsEditor/Dream-Frame/master/resources/changelog.png);
+    background-image: url(https://raw.githubusercontent.com/CorbsEditor/Dream-Frame/master/resources/Activity1.png);
     position: absolute;
     width: 100%;
-    height: 650px;
-    background-size: 1270px;
+    height: 740px;
+    background-size: 1360px;
     background-repeat: no-repeat;
     background-position: left;
     background-position-x: 0px;
-    top: 675px;
+    top: 273px;
 }
 .feedCarousel-3F1_Q- {
-    margin-bottom: 579px;
+    margin-bottom: 450px;
 }
 /* - */
 /* Loading Screen */
 /* - */
-body {
-    content: "Discord";
-    background-color: black;
-}
 .container-16j22k {
     background-color: rgba(0, 0, 0, 0.75);
 }
 .content-1-zrf2.pc-content {
     opacity: 0;
 }
-
+.content-1-zrf2.da-content {
+    opacity: 0;
+}
 /* - */
 /* App */
 /* - */
@@ -655,82 +652,47 @@ img.splash-3N0nhD {
 .searchBar-2_Yu-C.searchBarComponent-32dTOx {
     visibility: hidden;
 }
-
+.name-2WpE7M {
+  color: white;
+}
 /* - */
 /* Activity */
 /* - */
+/* Backgrounds */
+.theme-dark .activityFeed-1C0EmJ {
+    background-color: transparent;
+}
+/* Header */
 .theme-dark .headerBar-UHpsPw {
     box-shadow: none;
 }
-/* News */
-.carousel-2WxMes {
-    height: 648px;
-}
-.paginationItem-2lUq0s {
-    background: transparent;
-    height: 156px;
-}
-.paginationItem-2lUq0s:before {
-    height: 170px;
-}
-.theme-dark .paginationItem-2lUq0s:after {
-    background: linear-gradient(270deg,transparent 0,rgba(0, 0, 0, 0.75));
-}
-.article-3kb3qm {
-    background-color: black;
-}
+/* Change log */
 
+/* Cards */
+.theme-dark .separator-1N1EBC {
+    background-color: transparent;
+}
+.theme-dark .wrapper-9ppXpy {
+    box-shadow: none;
+}
 /* Quick Launcher */
-
-/* Now Playing */
-.theme-dark .player-1kJMbj {
-    border-bottom-color: transparent;
-}
-.theme-dark .body-SKIE6r {
-    background-color: #2f3136;
-}
-.splashArt-3yFzRe {
-    width: 80%;
-    height: 365%;
-    filter: blur(2px);
-}
-.theme-dark .partyMemberBackground-aSF9mc {
-    background-color: rgba(0,0,0,0.25);
-}
-.theme-dark .partyMemberOverflow-3VhFIX {
-    background-color: rgba(0,0,0,0.25);
-    color: white;
-}
-.theme-dark .partyMemberUnknownIcon-2zv8ar {
-    color: white;
-}
-/* Background */
-.theme-dark .body-SKIE6r, .theme-dark .header-1RC2Wb, .theme-dark .header-1RC2Wb:hover {
-    background-color: rgba(0, 0, 0, 0.25);
-}
-.theme-dark .card-7JP0BX {
-    background-color: transparent;
-    color: white;
-}
-/* Buttons */
-.headerButtonColor-G7_f-V {
-    background: rgba(0,0,0,0.25);
-    color: #fff;
-    border-radius: 50px;
-}
-/* Seperators */
-.theme-dark .headerText-2niCs_ {
-    border-top-color: transparent;
-}
-.theme-dark .sectionLine-JjseS9 {
+.theme-dark .empty-hejAOj {
     background-color: transparent;
 }
-/* Game Pop Up */
-.theme-dark .publisher-2ZxPEd {
-    border-bottom: none;
+/* Fitting in the changelog */
+.layoutInner-3TcL0l {
+    margin: 520px 16px 0px !important;
 }
-.dot-2Q_mMZ {
-    border-radius: 10px;
+.content-2K7Ie9::before {
+    content: "";
+    background-image: url(https://raw.githubusercontent.com/CorbsEditor/Dream-Frame/master/resources/Activity3.png);
+    height: 423px;
+    width: 1290px;
+    position: absolute;
+    top: -392px;
+    left: -2px;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 /* - */
 /* Library */
@@ -795,48 +757,6 @@ circle.circleProgress-1EBmVn {
 }
 .theme-dark .divider-3573oO {
     background-color: transparent;
-}
-.anchor-3Z-8Bb {
-    color: var(--accentcolor);
-}
-/* - */
-/* Activity */   /* The newer one, this is a fix for it */
-/* - */
-/* Backgrounds */
-.theme-dark .activityFeed-1C0EmJ {
-    background-color: transparent;
-}
-/* Header */
-.theme-dark .headerBar-UHpsPw {
-    box-shadow: none;
-}
-/* Change log */
-
-/* Cards */
-.theme-dark .separator-1N1EBC {
-    background-color: transparent;
-}
-.theme-dark .wrapper-9ppXpy {
-    box-shadow: none;
-}
-/* Quick Launcher */
-.theme-dark .empty-hejAOj {
-    background-color: transparent;
-}
-/* Fitting in the changelog */
-.layoutInner-3TcL0l {
-    margin: 520px 16px 0px;
-}
-.content-2K7Ie9::before {
-    content: "";
-    background-image: url(https://raw.githubusercontent.com/CorbsEditor/Dream-Frame/master/resources/changelog.png);
-    height: 545px;
-    width: 1290px;
-    position: absolute;
-    top: -480px;
-    left: 0px;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 /* - */
 /* Discord's Store */
@@ -1253,6 +1173,8 @@ img.image-3XsqGc {
 }
 .theme-dark .members-1998pB {
     height: 92%;
+    animation-delay: 5s;
+    animation: 7s v2 ease-in-out;
 }
 .theme-dark .members-1998pB::before {
     content: "";
@@ -1265,6 +1187,8 @@ img.image-3XsqGc {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    animation-delay: 5s;
+    animation: 5s v1 ease-in-out;
 }
 /* Scroll Bar */
 .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
