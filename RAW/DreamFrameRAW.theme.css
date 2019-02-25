@@ -1427,17 +1427,6 @@ i.icon-3cZ1F_.iconSearchBarClear-2DW-Kr.visible-3V0mGj {
     z-index: -1;
     border-radius: 0px !important;
 }
-/* Profile Donator ID */
-.appMount-3lHmkl .root-SR8cQa .header-QKLPzZ .avatar-3EQepX .image-33JSyf + .statusProfile-3ynqtt::before {
-    content: "Donator";
-    color: white;
-    bottom: 5%;
-    right: 5%;
-    background-color: rgba(0, 0, 0, 0.5) !important;
-    padding: 5px;
-    border-radius: 5px;
-    position: fixed;
-}
 /* corner info */
 .container-2Thooq {
     height: 50px;
