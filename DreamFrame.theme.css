@@ -4,7 +4,7 @@
 @import url("https://raw.githack.com/KorbsEditor/Dream-Frame/master/RAW/DreamFrameRAW.theme.css");
 :root {
     /* Background */
-    --custombackground: url(https://source.unsplash.com/random); /* Change the background */
+    --custombackground: url(https://cdn.wegow.com/media/artists/chase-atlantic/chase-atlantic-1528185342.98.2560x1440.jpg); /* Change the background */
     --blur: 0px !important; /* Adjust the amount of blur on the background */
     --opacitybg: 0.5 !important; /* Change the transparency of the background. This is what controls the black overlay that is over the background */
     --opacityDiscord: 0.7 !important; /* Try removing your custom background and enable Transparency in BandagedBD settings. Also adjust opacitybg to 0 */
